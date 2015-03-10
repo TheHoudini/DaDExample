@@ -13,10 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        dialog.cpp \
     cwebview.cpp \
-    clistview.cpp
+    clistview.cpp \
+    window.cpp
 
-HEADERS  += dialog.h \
+HEADERS  += \
     cwebview.h \
-    clistview.h
+    clistview.h \
+    window.h
+
+FORMS += \
+    window.ui

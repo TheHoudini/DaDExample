@@ -3,7 +3,9 @@
 
 cWebView::cWebView(QWidget *parent)
 {
+
     setParent(parent);
+    id=0;
 
 
     html = html.append(" <script> listView.clicked.connect(itemClicked);  var active; \
